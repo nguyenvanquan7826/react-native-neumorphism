@@ -27,7 +27,7 @@ export default (props: NeumorphismProps) => {
     <View style={props.style}>
       {!props.disabled && (
         <NeumorphismCardView
-          lightColor={props.lightColor}
+          // lightColor={props.lightColor}
           darkColor={props.darkColor}
           radius={props.radius}
           shapeType={props.shapeType}
